@@ -1,8 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View , FlatList} from 'react-native';
-import Header, {} from '../../Components/Header'
-import Balance from '../../Components/Balance';
-import Moviments from '../../Components/moviments';
+import Header, {} from '../../Components/Header/index'
+import Balance from '../../Components/Balance/index';
+import Moviments from '../../Components/Moviments/index';
 
 const list = [
 {
